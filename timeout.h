@@ -42,8 +42,8 @@
 #define IN_EVENT_SIZE (sizeof(struct inotify_event) + 16)
 #define IN_BUF_SIZE (IN_BUF_LEN * IN_EVENT_SIZE)
 
-#define DEFAULT_TIMEOUT 300 // 5 minutes
-#define SLEEP_NS 100000000L // 1 second
+#define DEFAULT_TIMEOUT 60 // 1 minute
+#define SLEEP_NS 10000000L // 0.1 second
 #define LIGHT_OFF '1'
 #define LIGHT_ON '0'
 
